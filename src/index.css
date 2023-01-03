@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .header {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(44, 112, 190);
+    color: white;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .btn-page {
+    background-color: rgb(44, 112, 190);
+    border: none;
+    padding: 5px;
+    margin-right: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .main {
+    width: 90vw;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:30vw;
+  }
+  .person {
+
+    text-align: start;
+    display: inline;
+    margin-right: 1000px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  .thead {
+    color: white;
+    border: 1px solid black;
+    width: 14.5vw;
+    padding: 5px;
+  }
+  input {
+    width: 10vw;
+  }
+  td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .action {
+    background-color: white;
+    text-decoration: underline;
+    color: rgb(5, 104, 217);
+    cursor: pointer;
+    margin-right: 45px;
+  }
+  .action .right{
+    border: 2px solid red;
+    float: right;
+  }
+  .retrieve {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90vw;
+    height: 70vh;
+    border: 1px solid black;
+  }
+  .search {
+    width: 200px;
+    height: 30px;
+  }
+  .btn-find {
+    background-color: rgb(44, 112, 190);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .input-num::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .add {
+    width: 10vw;
+    background-color: rgb(44, 112, 190);
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 70vw;
+  }
+  
+  .search::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .single-data {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .no-data {
+    margin-top: 20vh;
+    margin-left: 35vw;
+  }
+  .find-detail {
+    border: 1px solid black;
+    margin-top: 20px;
+    text-align: start;
+  }
+  span{
+    font-weight: 400;
+  }
+  @media screen and (max-width: 900px) {
+    input {
+      width: 15vw;
+    }
+  }
+  tr{
+    width: 100vw;
+
+  }
+  
